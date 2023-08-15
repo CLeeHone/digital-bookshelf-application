@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ProjectFinalAndroid</string>
+    <string name="main_menu_toolbar">Rechercher un livre</string>
+    <string name="group_names">Chloe Lee-Hone</string>
+    <string name="drawer_open">Ouvert</string>
+    <string name="drawer_close">Fermé</string>
+    <string name="drawer_bookshelf">Étagère</string>
+    <string name="user_instructions">Entrez le titre d\'un livre:</string>
+    <string name="search_button">Trouver un livre</string>
+    <string name="user_instructions_hint">Titre, auteur, genre&#8230;</string>
+    <string name="saved_user_book">Livre de l\'usager</string>
+    <string name="book_button">Trouver un livre</string>
+    <string name="book_search_result">Résultats</string>
+    <string name="help_menu">Activité Livre</string>
+    <string name="help_menu_button">Aide</string>
+    <string name="help_menu_message">Entrez le nom d\'un livre, puis appuyez sur le bouton indiqué \"Trouver un livre\".</string>
+    <string name="help_menu_title">Comment utiliser cette application</string>
+    <string name="alert_message_button">Je comprends</string>
+    <string name="list_alert_title">Sauvegarder ce livre</string>
+    <string name="list_alert_selected_row">Voulez-vous sauvegarder ce livre dans votre étagère?</string>
+    <string name="list_prompt_yes">Oui</string>
+    <string name="list_prompt_no">Non</string>
+    <string name="load_database_button">Mon étagère</string>
+    <string name="add_db_button">Ajouter aux favoris</string>
+    <string name="toast_db_added">fut ajouté à votre étagère</string>
+    <string name="toast_db_removed">fut supprimé de vos étagère</string>
+    <string name="search_toast">Veuillez entrer au moins un mot clé</string>
+    <string name="list_alert_delete_title">Supprimer de votre étagère</string>
+    <string name="list_alert_delete_message">Voulez-vous supprimer ce livre de votre étagère?</string>
+    <string name="fragment_book_title">Titre du livre:</string>
+    <string name="fragment_book_author">Auteur:</string>
+    <string name="fragment_book_year">Année:</string>
+    <string name="fragment_book_description">Description:</string>
+    <string name="fragment_book_pages">pages</string>
+    <string name="menu_search">Rechercher</string>
+    <string name="menu_discover">Découvrir</string>
+    <string name="menu_bookshelf">Étagère</string>
+    <string name="menu_camera">Caméra</string>
+    <string name="details_fragment_toast_1">Cette version de \'</string>
+    <string name="details_fragment_toast_2">\' est déjà dans votre étagère.</string>
+</resources>

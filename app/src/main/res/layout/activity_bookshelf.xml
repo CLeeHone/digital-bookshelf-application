@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="8dp"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Bookshelf">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/bookshelf_activity"
+        app:title="@string/bookshelf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <SearchView
+            android:id="@+id/bookshelf_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:queryHint="@string/bookshelf_search"
+            android:layout_gravity="right"/>
+    </androidx.appcompat.widget.Toolbar>
+
+    <ListView
+        android:id="@+id/bookshelf_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="10dp"
+        android:divider="@color/white"
+        android:background="@color/mid_green"/>
+
+</LinearLayout>

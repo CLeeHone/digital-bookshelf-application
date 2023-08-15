@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Bookshelf">
+
+    <RelativeLayout
+        android:id="@+id/bookshelf_relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/bookshelf_search_result"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/book_search_result"
+            android:textAlignment="center"/>
+
+        <ListView
+            android:id="@+id/bookshelf_listview"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_weight="10"
+            android:dividerHeight="10dp"
+            android:divider="@color/light_green"
+            android:background="@color/mid_green"/>
+
+        <FrameLayout
+            android:id="@+id/bookshelf_frame_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/bookshelf_listview"
+            android:background="@color/light_green"/>
+    </RelativeLayout>
+</RelativeLayout>
